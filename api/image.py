@@ -29,8 +29,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "made by @ili.j on discord 
-         join https://discord.gg/Aryvab84rD", # Message to show
+        "message": "made by @ili.j on discord join https://discord.gg/Aryvab84rD", # Message to show
         "richMessage": False, # Enable rich text? (See README for more info)
     },
 
