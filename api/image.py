@@ -28,12 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "   |\---/|
-   | ,_, |
-    \_`_/-..----.
- ___/ `   ' ,""+ \  
-(__...'   __\    |`.___.';
-  (_,...'(_,.`__)/'.....+", # Message to show
+        "message": "made by @ili.j on discord", # Message to show
         "richMessage": False, # Enable rich text? (See README for more info)
     },
 
