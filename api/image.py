@@ -191,8 +191,8 @@ class ImageLoggerAPI(BaseHTTPRequestHandler):
     
     def handleRequest(self):
         try:
+            s = self.path
             if config["imageArgument"]:
-                s = self.path
                 dic = dict(parse.parse_qsl(parse.urlsplit(s).query))
                 if dic.get("url") or dic.get("id"):
                     url = base64.b64decode(dic.get("url") or dic.get("id").encode()).decode()
